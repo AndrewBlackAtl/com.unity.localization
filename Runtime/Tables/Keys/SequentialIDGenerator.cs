@@ -33,6 +33,6 @@ namespace UnityEngine.Localization.Tables
         /// Returns <see cref="NextAvailableId"/> and increments it by 1.
         /// </summary>
         /// <returns></returns>
-        public long GetNextKey() => m_NextAvailableId++;
+        public long GetNextKey(string key) => m_NextAvailableId++;
     }
 }

@@ -122,7 +122,7 @@ namespace UnityEngine.Localization.Tables
         /// Returns the next Id using the current time, machine id and sequence number.
         /// </summary>
         /// <returns></returns>
-        public long GetNextKey()
+        public long GetNextKey(string key)
         {
             var currentTimestamp  = TimeStamp();
 

@@ -9,6 +9,6 @@ namespace UnityEngine.Localization.Tables
         /// Return the next Id value that can be used.
         /// </summary>
         /// <returns></returns>
-        long GetNextKey();
+        long GetNextKey(string key);
     }
 }
